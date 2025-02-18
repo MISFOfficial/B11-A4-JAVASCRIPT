@@ -10,13 +10,13 @@ function  calculateSleepTime( times ) {
         }
         sum+=times[i];
     }
-    const hour=sum/3600;
-    const minute=(sum%3600)/60;
-    const second=sum%60;
+    const hour=Math.floor(sum/3600);
+    const minute=Math.floor((sum%3600)/60);
+    const second=Math.floor(sum%60);
 
-    return{hour, minute, second}
+    return {hour, minute, second};
 }
-const times=[1000, 499, 519, 300]
+const times=[5600]
 const result=calculateSleepTime(times)
 console.log(result)
 
