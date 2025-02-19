@@ -22,6 +22,6 @@ const person1="Mizan"
 const person2= { name: "mitu", gender: "male", age: 32 }
 const result=validProposal(person1, person2)
 console.log(result)
-
+done
 
 

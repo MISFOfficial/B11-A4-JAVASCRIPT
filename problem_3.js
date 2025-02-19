@@ -21,5 +21,6 @@ function willSuccess(marks) {
 const marks=[60, 70, 80, 40, 30];
 const result=willSuccess(marks)
 console.log(result)
+done
 
 
