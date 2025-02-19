@@ -9,5 +9,3 @@ function calculateVAT(price){
 const price=1500;
 const result=calculateVAT(price)
 console.log(result)
-
-done

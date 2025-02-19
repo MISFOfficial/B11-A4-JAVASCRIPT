@@ -5,6 +5,7 @@ function calculateVAT(price){
     const rate=(price*7.5)/100;
     return rate;
 }
+console.log(calculateSleepTime())
 
 
 function validContact(contact){
